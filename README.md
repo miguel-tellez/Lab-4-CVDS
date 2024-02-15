@@ -41,52 +41,76 @@ principio de inversión de dependencias:
 
 1. Clone el proyecto (no lo descargue!).
 
+<img width="456" alt="image" src="https://github.com/miguel-tellez/Lab-4-CVDS/assets/77862071/85ee898e-563d-4ca6-9e05-51a4f4c3f95b">
+
+
 2. A partir del código existente, implemente sólo los cascarones del
    modelo antes indicado.
 
-3. Haga la especificación de los métodos calculateScore (de las tres
+   <img width="480" alt="image" src="https://github.com/miguel-tellez/Lab-4-CVDS/assets/77862071/8ed79994-7c60-4b54-a711-d3c51e7f392e">
+
+
+4. Haga la especificación de los métodos calculateScore (de las tres
    variantes de GameScore), a partir de las especificaciones
    generales dadas anteriormente. Recuerde tener en cuenta: @pre,
    @pos, @param, @throws.
 
-4. Haga commit de lo realizado hasta ahora. Desde la terminal:
+## GameScore
+<img width="566" alt="image" src="https://github.com/miguel-tellez/Lab-4-CVDS/assets/77862071/a0f14a23-0a9f-4c16-b47b-b692cfce5a00">
+
+## OriginalScore
+
+![image](https://github.com/miguel-tellez/Lab-4-CVDS/assets/77862071/534b0c28-d8de-4a25-b497-885215349c20)
+
+
+## BonusScore
+
+![image](https://github.com/miguel-tellez/Lab-4-CVDS/assets/77862071/8e0b35ac-4e01-4bad-a556-22fb70ad93cb)
+
+
+## PowerScore
+
+<img width="960" alt="image" src="https://github.com/miguel-tellez/Lab-4-CVDS/assets/77862071/88f597cd-1fac-44ec-9fd9-e7dda4804129">
+
+
+5. Haga commit de lo realizado hasta ahora. Desde la terminal:
 
     ```sh		
     git add .			
     git commit -m "especificación métodos"
     ```
 
-5. Actualice el archivo `pom.xml` e incluya las dependencias para la ultima versión de JUnit y la versión del compilador
+6. Actualice el archivo `pom.xml` e incluya las dependencias para la ultima versión de JUnit y la versión del compilador
    de Java a la versión 8.
 
-6. Teniendo en cuenta dichas especificaciones, en la clase donde se
+7. Teniendo en cuenta dichas especificaciones, en la clase donde se
    implementarán las pruebas (GameScoreTest), en los
    comentarios iniciales, especifique las clases de equivalencia para
    las tres variantes de GameScore, e identifique
    condiciones de frontera.
 
-7. Para cada clase de equivalencia y condición de frontera, implemente
+8. Para cada clase de equivalencia y condición de frontera, implemente
    una prueba utilizando JUnit.
 
-8. Haga commit de lo realizado hasta ahora. Desde la terminal:
+9. Haga commit de lo realizado hasta ahora. Desde la terminal:
 
     ```sh		
     git add .			
     git commit -m "implementación pruebas"
     ```
 
-9. Realice la implementación de los 'cascarones' realizados anteriormente.
+10. Realice la implementación de los 'cascarones' realizados anteriormente.
    Asegúrese que todas las pruebas unitarias creadas en los puntos anteriores
    se ejecutan satisfactoriamente.
 
-10. Al finalizar haga un nuevo commit:
+11. Al finalizar haga un nuevo commit:
 
     ```sh		
     git add .			
     git commit -m "implementación del modelo"
     ```
 
-11. Para sincronizar el avance en el respositorio y NO PERDER el trabajo, use
+12. Para sincronizar el avance en el respositorio y NO PERDER el trabajo, use
     el comando de GIT para enviar los cambios:
 
     ```sh
